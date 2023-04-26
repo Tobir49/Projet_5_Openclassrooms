@@ -112,9 +112,13 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #BEB45A;
-    border-radius: 1em;
+    color: #000;
+    background-color: #F6D2B8;
+    border-radius: 0;
+}
+
+span.nav-link.active.active-tag {
+    background-color: #F6D2B8;
 }
 
 .nav-link:hover {
@@ -213,7 +217,7 @@ body {
 
 #contact {
     margin: auto;
-    background-color: #D8D3A8;
+    background-color: #F6D2B8;
     position: relative;
     padding-inline: 100px;
     padding-block: 100px;
@@ -225,7 +229,7 @@ body {
 
 .picture.right::before {
     content: ' ';
-    background-color: #BEB45A;
+    background-color: #E5975F;
     width: 374px;
     height: 329px;
     position: absolute;
@@ -248,7 +252,8 @@ form {
 form input {
     width: 100%;
     background-color: transparent;
-    border: solid 1px;
+    border: solid 1px #E5975F;
+    border-radius: 1.2em;
     height: 2.5em;
     margin-bottom: 20px;
 }
@@ -256,7 +261,8 @@ form input {
 form textarea {
     width: 100%;
     background-color: transparent;
-    border: solid 1px;
+    border: solid 1px #E5975F;
+    border-radius: 1.2em;
     height: 5em;
     line-height: 2.5em;
     font-size: 1.2em;
@@ -264,7 +270,9 @@ form textarea {
 }
 
 input[type="submit"] {
-    background-color: #BEB45A;
+    background-color: #E5975F;
+    border-radius: 1.2em;
+    border: 0px;
     padding: .5em 1em
 }
 
